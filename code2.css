@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #eef2f6;
+  margin: 40px;
+  color: #222;
+}
+.wrap {
+  max-width: 780px;
+  margin: 0 auto;
+}
+.site-header { text-align:center; margin-bottom:20px; }
+.name { margin: 0; font-size:32px; }
+.role { margin:6px 0 0 0; color:#666; }
+
+.card {
+  background: #fff;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+}
+
+.info-list { list-style:none; padding:0; margin:0; }
+.info-list li { padding:8px 0; border-bottom:1px dashed #eee; }
+.label { font-weight:700; margin-right:8px; color:#333; }
